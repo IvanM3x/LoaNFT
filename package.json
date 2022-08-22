@@ -1,0 +1,41 @@
+{
+  "name": "loanft",
+  "packageManager": "yarn@3.1.0",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.4.0",
+    "@typechain/ethers-v5": "^8.0.5",
+    "@typechain/hardhat": "^3.0.0",
+    "@types/jest": "^27.0.3",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
+    "chalk": "^5.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.7.0",
+    "ts-node": "^10.4.0",
+    "typechain": "^6.0.5",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:local": "npx hardhat run scripts/deploy.ts --network localhost",
+    "deploy:mumbai": "npx hardhat run scripts/deploy.ts --network mumbai",
+    "test": "npx hardhat test",
+    "chain": "USE_HARDHAT_LOCALHOST_CONFIG=true npx hardhat node",
+    "dapp:install": "(cd client && yarn install)",
+    "start:local": "(cd client && yarn start:local)",
+    "start:mumbai": "(cd client && yarn start:mumbai)",
+    "build:local": "(cd client && yarn build:local)",
+    "build:mumbai": "(cd client && yarn build:mumbai)",
+    "serve": "npx serve -s client/build",
+    "netlify:deploy": "netlify deploy --dir=client/build"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "dotenv": "^10.0.0",
+    "react-hook-form": "^7.20.5",
+    "react-router-dom": "6"
+  }
+}
