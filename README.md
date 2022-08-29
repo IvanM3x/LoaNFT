@@ -55,9 +55,8 @@ Native currency: ETH
 The app will automatically use the latest contract addresses.
 
 ## Screencast link
-[https://youtu.be/8aT7kRngyI4](https://youtu.be/8aT7kRngyI4)
-## Ethereum wallet for certification
-`0x115E06bC8f052aA99af5D48D961FeF6656d7F242`
+[https://www.youtube.com/watch?v=hSS-l1eXq1g](https://www.youtube.com/watch?v=hSS-l1eXq1g)
+
 ## Problem
 
 Even if you own a rare and valuable NFT token, it is very hard to use it as collateral to a loan with currently available protocols. The main problem is that the value value of an NFT is hard to be determined and to predict over time. What is the current value of this NFT? What could the value be at the end of the loan?
